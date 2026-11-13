@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Data Center Solutions | Maximus Sourcing</title>
+  <meta name="description" content="Compute service agreements and modular, prefabricated AI data center sourcing for GPU deployments from 2 MW to campus scale.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-turbine" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M6 18h6l6-6h12l6 6h6v12h-6l-6 6H18l-6-6H6z"/><path d="M18 12v24M30 12v24M24 12v24"/><circle cx="24" cy="24" r="2.5"/></symbol>
+    <symbol id="i-recip" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="6" y="20" width="36" height="18" rx="1"/><path d="M12 20v-8h6v8M21 20v-8h6v8M30 20v-8h6v8"/><path d="M10 12h30M15 26h18M15 32h18"/></symbol>
+    <symbol id="i-diesel" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="4" y="14" width="40" height="22" rx="1"/><path d="M4 36v4M44 36v4M10 14V8h6v6"/><path d="M27 19l-5 7h5l-3 6"/></symbol>
+    <symbol id="i-transformer" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="10" y="16" width="28" height="24" rx="1"/><path d="M15 16V8M24 16V6M33 16V8"/><path d="M12 10h6M21 8h6M30 10h6"/><path d="M16 24h16M16 30h16M16 36h16"/></symbol>
+    <symbol id="i-switch" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="6" y="8" width="16" height="32" rx="1"/><rect x="26" y="8" width="16" height="32" rx="1"/><circle cx="14" cy="17" r="3"/><circle cx="34" cy="17" r="3"/><path d="M10 27h8M10 32h8M30 27h8M30 32h8"/></symbol>
+    <symbol id="i-plant" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M6 42h36"/><path d="M9 42c2-8 2-16 0-24h10c-2 8-2 16 0 24"/><path d="M24 42V26h16v16"/><path d="M28 26v-6h4v6"/><path d="M12 12c2-2 4-2 6 0"/></symbol>
+    <symbol id="i-contract" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 4h18l8 8v32H12z"/><path d="M30 4v8h8"/><path d="M18 20h14M18 26h14M18 32h8"/><path d="M28 38l3 3 6-7"/></symbol>
+    <symbol id="i-module" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M4 16l20-8 20 8v20l-20 8-20-8z"/><path d="M4 16l20 8 20-8M24 24v20"/><path d="M10 22v12M16 24.5v12"/></symbol>
+    <symbol id="i-rack" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="7" y="3" width="18" height="26" rx="1"/><path d="M7 10h18M7 17h18M7 24h18"/><circle cx="11" cy="6.5" r=".8" fill="currentColor"/><circle cx="11" cy="13.5" r=".8" fill="currentColor"/><circle cx="11" cy="20.5" r=".8" fill="currentColor"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M18 3L7 18h8l-2 11 12-16h-8z"/></symbol>
+    <symbol id="i-cool" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M16 3v26M4.7 9.5l22.6 13M4.7 22.5l22.6-13"/><path d="M12.5 5.5L16 8l3.5-2.5M12.5 26.5L16 24l3.5 2.5"/></symbol>
+    <symbol id="i-gen" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="3" y="10" width="26" height="15" rx="1"/><circle cx="11" cy="17.5" r="4"/><path d="M19 15h6M19 20h6M8 10V6h4v4"/></symbol>
+    <symbol id="i-skid" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M3 25h26M5 25v3M27 25v3"/><path d="M5 20h22M5 15h22"/><path d="M9 15v10M23 15v10"/><path d="M12 10h8v5h-8z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="26" height="18" rx="1"/><path d="M3 8l13 10L29 8"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header on-dark">
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="Maximus Sourcing home">
+      <svg class="mark" viewBox="0 0 48 40" fill="none" aria-hidden="true"><polyline points="3,37 15,9 23,25 33,4 45,37" stroke="#C6A15B" stroke-width="3.2" stroke-linejoin="miter" stroke-linecap="square"/></svg>
+      <span class="divider"></span>
+      <span class="word"><b>MAXIMUS</b><span>SOURCING</span></span>
+    </a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="power.html">Power Equipment</a>
+      <a href="aidc.html" aria-current="page">AI Data Centers</a>
+      <a href="catalog.html">Catalog</a>
+      <a class="btn btn-gold" href="./#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero on-dark">
+    <svg class="ridge" viewBox="0 0 1440 140" preserveAspectRatio="none" aria-hidden="true">
+      <polyline points="0,140 220,70 360,120 600,30 780,110 960,60 1140,120 1300,20 1440,90 1440,140" fill="#132439"/>
+      <polyline points="0,70 220,70 360,120 600,30 780,110 960,60 1140,120 1300,20 1440,90" fill="none" stroke="#C6A15B" stroke-opacity=".35" stroke-width="1.2" vector-effect="non-scaling-stroke"/>
+    </svg>
+    <div class="wrap">
+      <p class="eyebrow">02 · AI data center solutions</p>
+      <h1>Stop constructing. Start manufacturing.</h1>
+      <p class="lede">Prefabricated, containerized AI data centers for GPU deployments from 2 MW to campus scale, delivered in months rather than years. We also arrange the compute agreements that make them bankable.</p>
+      <div class="hero-stats"><div><b>2 MW +</b><span>Edge to campus scale</span></div><div><b>135 kW</b><span>Per rack, liquid-cooled</span></div><div><b>1.25</b><span>Annualized PUE target</span></div><div><b>~9 months</b><span>Blueprint to power-up</span></div></div>
+    </div>
+  </section>
+  <section class="section dark on-dark" id="aidc">
+      <div class="service-pair">
+        <article class="service reveal">
+          <svg class="icon"><use href="#i-contract"/></svg>
+          <h3>Compute Service Agreements</h3>
+          <p>We bring together GPU capacity owners, compute buyers, facility providers and capital, and help structure the compute service agreement (CSA) that links them.</p>
+          <ul class="checks">
+            <li>Matching AI compute demand with capacity on firm power</li>
+            <li>Capacity tranches, term, service levels and delivery milestones</li>
+            <li>Server delivery schedules tied to facility and power readiness</li>
+            <li>Coordination with lenders, equipment vendors and operators</li>
+          </ul>
+        </article>
+        <article class="service reveal">
+          <svg class="icon"><use href="#i-module"/></svg>
+          <h3>Modular Solution Sourcing</h3>
+          <p>A modular AI data center turns a construction project into an industrial product. IT, power, cooling and fire protection are built as standard modules in parallel, tested at the factory, then assembled on site.</p>
+          <ul class="checks">
+            <li>Competitive tendering among qualified module manufacturers</li>
+            <li>Co-design of layout, redundancy level and cooling approach</li>
+            <li>Factory acceptance testing, so modules arrive proven</li>
+            <li>Sea and road logistics, including route surveys for oversized loads</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="sub-head reveal">
+        <h3>Inside the modules</h3>
+        <p>Standard 20, 40 and 45 ft ISO container formats, built for ocean freight and road transport. They combine into layouts from a single edge site to a multi-megawatt campus.</p>
+      </div>
+      <div class="modules reveal">
+        <div class="module"><svg class="icon"><use href="#i-rack"/></svg><h4>IT modules</h4><p>ISO-format data halls for air- or liquid-cooled GPU racks.</p></div>
+        <div class="module"><svg class="icon"><use href="#i-bolt"/></svg><h4>Power modules</h4><p>Switchgear, UPS and Li-ion batteries, pre-wired.</p></div>
+        <div class="module"><svg class="icon"><use href="#i-cool"/></svg><h4>Cooling plant</h4><p>Chillers or cooling towers, CDUs, pumps and controls.</p></div>
+        <div class="module"><svg class="icon"><use href="#i-gen"/></svg><h4>Backup &amp; on-site power</h4><p>Diesel or natural-gas gensets, from our power portfolio.</p></div>
+        <div class="module"><svg class="icon"><use href="#i-skid"/></svg><h4>Prefabricated skids</h4><p>Cable trays and piping, ready to connect.</p></div>
+      </div>
+
+      <div class="sub-head reveal">
+        <h3>Built for the densest AI workloads</h3>
+      </div>
+      <div class="metrics reveal">
+        <div class="metric"><b>135<small>kW</small></b><h4>High-density ready</h4><p>From 43 kW air-cooled B300 racks to 135 kW liquid-cooled GB300 NVL72.</p></div>
+        <div class="metric"><b>1.25</b><h4>Annualized PUE</h4><p>Warm-water loops allow compressor-free cooling for much of the year.</p></div>
+        <div class="metric"><b>Tier III</b><h4>Mission-critical</h4><p>Uptime Tier III design basis with concurrently maintainable power and cooling paths.</p></div>
+        <div class="metric"><b>CCHP</b><h4>Power strategy</h4><p>On-site generation avoids the grid queue, and engine waste heat drives absorption chillers.</p></div>
+      </div>
+
+      <div class="sub-head reveal">
+        <h3>From blueprint to power-up in about nine months</h3>
+      </div>
+      <div class="timeline reveal">
+        <div class="step"><span class="when">Months 0 – 1</span><h4>Digital de-risking</h4><p>Full BIM coordination and CFD thermal modelling simulate the facility before anything is fabricated.</p></div>
+        <div class="step"><span class="when">Months 1 – 6</span><h4>Factory manufacturing</h4><p>IT, power and cooling modules are built in parallel and fully tested before shipment.</p></div>
+        <div class="step"><span class="when">Months 6 – 8</span><h4>Logistics &amp; assembly</h4><p>Modules ship by sea and road while the site pad and utilities are prepared, then are craned into place.</p></div>
+        <div class="step"><span class="when">Months 8 – 9</span><h4>Commissioning</h4><p>Modules are connected and commissioned, and go live within weeks of delivery.</p></div>
+      </div>
+
+      <div class="sub-head reveal">
+        <h3>Reference designs</h3>
+        <p>Two U.S. configurations show how the platform scales.</p>
+      </div>
+      <div class="refs">
+        <article class="ref reveal">
+          <span class="tag">Tennessee · Liquid-cooled campus</span>
+          <h4>5 MW GB300 NVL72 campus</h4>
+          <dl>
+            <div><dd>32</dd><dt>GB300 NVL72 racks</dt></div>
+            <div><dd>2,304</dd><dt>GPUs</dt></div>
+            <div><dd>5.0 MW</dd><dt>Critical IT capacity</dt></div>
+          </dl>
+          <ul>
+            <li>Single-storey steel-frame hall with prefabricated plant modules</li>
+            <li>Warm-water direct liquid cooling, 135 kW racks (155 kW peak)</li>
+            <li>Annual PUE target 1.25, about 8 months to service</li>
+            <li>Six 2,000 kW generators with on-site fuel</li>
+          </ul>
+        </article>
+        <article class="ref reveal">
+          <span class="tag">Georgia · Containerized edge</span>
+          <h4>2 MW NVIDIA B300 edge data center</h4>
+          <dl>
+            <div><dd>132</dd><dt>B300 servers</dt></div>
+            <div><dd>1,056</dd><dt>GPUs</dt></div>
+            <div><dd>1.9 MW</dd><dt>Critical IT load</dt></div>
+          </dl>
+          <ul>
+            <li>Nine 45 ft high-cube IT modules with contained hot aisles</li>
+            <li>43.2 kW per rack, air-cooled; chillers sized to move to liquid cooling later</li>
+            <li>Three power trains with dedicated diesel generators, 3DR UPS</li>
+            <li>Connects to existing 13.8 kV utility service, so no new substation is needed</li>
+          </ul>
+        </article>
+      </div>
+      <p class="ref-note">Reference design figures. Final configuration depends on site power, climate and GPU selection.</p>
+    </div>
+  </section>
+  <section class="section stone cta-band">
+    <div class="wrap">
+      <div class="cat-cta reveal">
+        <div><h3>Plan your AI data center</h3><p>Tell us your capacity target, GPU platform and site, and we will set up a technical deep dive.</p></div>
+        <div class="cta-actions"><a class="btn btn-gold" href="mailto:info@maximussourcing.com?subject=AI%20data%20center%20project%20inquiry">Discuss a project <span class="arrow">→</span></a><a class="btn btn-line" href="mailto:info@maximussourcing.com?subject=Compute%20service%20agreement%20inquiry">Compute agreements <span class="arrow">→</span></a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a class="logo on-dark" href="./" aria-label="Maximus Sourcing home">
+      <svg class="mark" viewBox="0 0 48 40" fill="none" aria-hidden="true"><polyline points="3,37 15,9 23,25 33,4 45,37" stroke="#C6A15B" stroke-width="3.2" stroke-linejoin="miter" stroke-linecap="square"/></svg>
+      <span class="divider"></span>
+      <span class="word"><b>MAXIMUS</b><span>SOURCING</span></span>
+    </a>
+    <nav>
+      <a href="power.html">Power Equipment</a>
+      <a href="aidc.html">AI Data Centers</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="mailto:info@maximussourcing.com">info@maximussourcing.com</a>
+    </nav>
+    <span>© <span data-year>2026</span> Maximus Sourcing LLC</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
